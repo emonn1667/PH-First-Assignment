@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1320px;
+  max-height: 600px;
+  flex-shrink: 0;
+}
+
+.header {
+  flex-shrink: 0;
+}
+
+.header-image {
+  width: 1320px;
+  height: 600px;
+  left: 140px;
+  top: 50px;
+  position: absolute;
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px;
+  left: 140px;
+  top: 50px;
+  position: absolute;
+  width: 1320px;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  border-radius: 16px;
+}
+
+.happynewyear {
+  left: 186px;
+  top: 0px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-family: Merriweather;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.newyearparty {
+  width: 632px;
+  left: 0px;
+  top: 56px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 72px;
+  font-family: Merriweather;
+  font-weight: 900;
+  line-height: 95px;
+  word-wrap: break-word;
+}
+
+.p-2 {
+  width: 632px;
+  height: 246px;
+  left: 344px;
+  top: 177px;
+  position: absolute;
+}
+
+.section1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  padding-top: 120px;
+}
+
+.off {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.deals {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 48px;
+}
+
+.category {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 16px;
+}
+
+.newyearimg {
+  margin: 0 auto;
+  margin-top: 48px;
+  width: 802.9px;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+.section2 {
+  width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  background-image: url(images/Vectorrr.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  margin-top: 120px;
+}
+
+.welcomemidnight {
+  width: 642px;
+  height: 600px;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  position: absolute;
+  padding-left: 126px;
+  padding-top: 126px;
+}
+
+.welcometext {
+  width: 697px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  padding-left: 126px;
+  padding-top: 326px;
+}
+
+.join {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  padding-right: 800px;
+  padding-top: 48px;
+}
+
+.c2024img {
+  display: inline;
+  margin: 2 auto;
+  padding-top: 68.12px;
+}
+
+.text {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+  padding-top: 100px;
+}
+
+.section3 {
+  
+  width: 1320px;
+  height: 482px;
+  flex-shrink: 0;
+  margin-top: 120px;
+  text-align: center;
+  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  
+}
+
+button {
+  margin-top: 64px;
+  color: #ffffff;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+}
