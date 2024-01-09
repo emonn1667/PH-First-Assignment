@@ -615,6 +615,9 @@ header {
 }
 
 .address1 {
+  position: relative;
+  left: 140px;
+  padding-top: 120px;
   color: #fff;
   font-family: Inter;
   font-size: 24px;
@@ -622,3 +625,54 @@ header {
   font-weight: 500;
   line-height: 40px; /* 166.667% */
 }
+
+.number {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+
+.call-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.address2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 950px;
+  align-items: center;
+}
+
+.address3 {
+  position: absolute;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 950px;
+  align-items: center;
+}
+
+.net-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.sitename {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+
+
