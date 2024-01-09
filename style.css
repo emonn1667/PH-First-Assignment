@@ -1,81 +1,58 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-body {
+header {
+  background: #fff;
+  margin-top: 50px;
+}
+
+.header-container {
+  width: 82%;
   max-width: 1320px;
-  max-height: 600px;
+  margin: 0 auto;
+  width: 1320px;
+  height: 600px;
   flex-shrink: 0;
-}
-
-.header {
-  flex-shrink: 0;
-}
-
-.header-image {
-  width: 1320px;
-  height: 600px;
-  left: 140px;
-  top: 50px;
-  position: absolute;
   border-radius: 16px;
-  width: 1320px;
-  height: 600px;
-  left: 140px;
-  top: 50px;
-  position: absolute;
-  width: 1320px;
-  height: 600px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(/images/Banner\ Image.png);
+  background-repeat: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .happynewyear {
-  left: 186px;
-  top: 0px;
-  position: absolute;
+  color: #fff;
   text-align: center;
-  color: white;
+  font-family: Merriweather;
   font-size: 32px;
-  font-family: Merriweather;
+  font-style: normal;
   font-weight: 400;
-  word-wrap: break-word;
+  line-height: normal;
 }
 
-.newyearparty {
-  width: 632px;
-  left: 0px;
-  top: 56px;
-  position: absolute;
+.partycelebration {
+  color: #fff;
   text-align: center;
-  color: white;
-  font-size: 72px;
   font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
   font-weight: 900;
-  line-height: 95px;
-  word-wrap: break-word;
+  line-height: 95px; /* 131.944% */
 }
 
-.p-2 {
-  width: 632px;
-  height: 246px;
-  left: 344px;
-  top: 177px;
-  position: absolute;
-}
-
-.section1 {
-  text-align: center;
+.offer-container {
+  margin-top: 120px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  flex-shrink: 0;
-  flex-wrap: wrap;
-  padding-top: 120px;
+}
+
+.offer-alltext {
 }
 
 .off {
@@ -88,18 +65,20 @@ body {
   line-height: normal;
 }
 
-.deals {
+.holiday {
+  margin-top: 48px;
+  margin-bottom: 16px;
   color: #f00;
   text-align: center;
   font-family: Inter;
-  font-size: 23px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-top: 48px;
 }
 
 .category {
+  margin-bottom: 48px;
   color: #070211;
   text-align: center;
   font-family: Inter;
@@ -107,32 +86,36 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-top: 16px;
 }
 
 .newyearimg {
-  margin: 0 auto;
-  margin-top: 48px;
   width: 802.9px;
   height: 500px;
   flex-shrink: 0;
+  background-color: lightgray 50% / cover no-repeat;
+  margin-bottom: 120px;
 }
 
-.section2 {
+.midnight-container {
+  padding-left: 110px;
+  padding-bottom: 100px;
+  margin: 0 auto;
   width: 1320px;
   height: 600px;
   flex-shrink: 0;
-  background-image: url(images/Vectorrr.png);
-  background-size: cover;
-  background-position: center;
-  position: relative;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(images/Vectorrr.png);
+  background-repeat: no-repeat;
   display: flex;
-  margin-top: 120px;
+  flex-direction: column-reverse;
 }
 
-.welcomemidnight {
+.midnight-alltext {
+  position: relative;
+}
+
+.welcometxt {
   width: 642px;
-  height: 600px;
   color: #fff;
   font-family: Merriweather;
   font-size: 64px;
@@ -140,12 +123,9 @@ body {
   font-weight: 900;
   line-height: 88px; /* 137.5% */
   letter-spacing: 7.04px;
-  position: absolute;
-  padding-left: 126px;
-  padding-top: 126px;
 }
 
-.welcometext {
+.partytxt {
   width: 697px;
   color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
@@ -153,29 +133,47 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
-  padding-left: 126px;
-  padding-top: 326px;
 }
 
 .join {
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  font-family: Inter;
-  font-weight: 700;
-  text-transform: uppercase;
-  word-wrap: break-word;
-  padding-right: 800px;
+  padding-left: 10px;
   padding-top: 48px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
-.c2024img {
-  display: inline;
-  margin: 2 auto;
-  padding-top: 68.12px;
+.C2024 {
+  width: 349.165px;
+  height: 464.654px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 1060px;
+  right: 108.67px;
+  margin: 0 auto;
 }
 
-.text {
+.newpark-container {
+  margin: 0 auto;
+  width: 1320px;
+  height: 482px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.newparkhotel {
+  padding-top: 100px;
+  padding-bottom: 64px;
   color: #f00;
   text-align: center;
   font-family: Inter;
@@ -184,28 +182,125 @@ body {
   font-weight: 600;
   line-height: 56px; /* 175% */
   text-transform: capitalize;
-  padding-top: 100px;
 }
 
-.section3 {
-  
-  width: 1320px;
-  height: 482px;
-  flex-shrink: 0;
-  margin-top: 120px;
-  text-align: center;
-  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-  
-}
-
-button {
-  margin-top: 64px;
-  color: #ffffff;
-  display: inline-flex;
+.btn {
+  margin: 0 auto;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: #f00;
   padding: 16px 32px;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-radius: 8px;
-  background: #f00;
 }
+
+.comingsoon-container {
+  width: 1600px;
+  height: 7335px;
+  background: #fff;
+}
+
+.txt1 {
+  padding-bottom: 10px  ;
+  color: #f00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.txt2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.txt3 {
+  width: 393px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  text-align: left;
+}
+
+.circleimg {
+  padding: 40px;
+  flex-shrink: 0;
+  border-radius: 463px;
+  border: 15px solid #f00;
+}
+
+.circleimg22 {
+  padding: 40px;
+  width: 364.844px;
+  height: 364.844px;
+  flex-shrink: 0;
+  border-radius: 364.844px;
+  background: url(images/Ellipse\ 1.png),
+    lightgray -91.279px 0px / 150.038% 100% no-repeat;
+}
+
+.t2024 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tpara {
+  width: 276px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.happysmall {
+  margin-top: 33px;
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+  background-image: url(images/Group\ 96.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.comingsoon-container {
+  width: 1320px;
+  height: 482px;
+  flex-shrink: 0;
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  background: #FFF;
+  margin: 0 auto;
+}
+
+
