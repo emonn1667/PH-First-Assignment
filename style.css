@@ -184,6 +184,10 @@ header {
   text-transform: capitalize;
 }
 
+.newparkhotel span {
+  color: #070211;
+}
+
 .btn {
   margin: 0 auto;
   color: #fff;
@@ -203,13 +207,14 @@ header {
 }
 
 .comingsoon-container {
+  margin-bottom: 120px;
   width: 1600px;
   height: 7335px;
   background: #fff;
 }
 
 .txt1 {
-  padding-bottom: 10px  ;
+  padding-bottom: 10px;
   color: #f00;
   text-align: left;
   font-family: Inter;
@@ -217,7 +222,6 @@ header {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-
 }
 
 .txt2 {
@@ -244,7 +248,7 @@ header {
 }
 
 .circleimg {
-  padding: 40px;
+  padding: 30px;
   flex-shrink: 0;
   border-radius: 463px;
   border: 15px solid #f00;
@@ -299,8 +303,40 @@ header {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  background: #FFF;
+  background: #fff;
   margin: 0 auto;
 }
 
+.holidayss-container {
+}
 
+.holidays-text {
+}
+
+.function {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.function22 {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.function22 span {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
